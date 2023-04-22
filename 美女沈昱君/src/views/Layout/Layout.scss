@@ -1,0 +1,51 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+
+  .logo {
+    height: 32px;
+    margin: 16px 0;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .header {
+    padding-left: 5px;
+    background-color: white;
+    height: 45px !important;
+    .trigger {
+      padding: 0px;
+      font-size: 18px;
+      line-height: 64px;
+      cursor: pointer;
+      transition: color 0.3s;
+      color: black;
+      &:hover {
+        color: #2294ff;
+      }
+    }
+  }
+  .content {
+    padding: 5px 10px;
+
+    .person {
+      width: 100%;
+      height: 160px;
+      background-color: white;
+      margin-bottom: 5px;
+    }
+    // .menu {
+    // display: flex;
+    // justify-content: stretch;
+    // }
+    .menu-content {
+      background-color: white;
+    }
+  }
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
